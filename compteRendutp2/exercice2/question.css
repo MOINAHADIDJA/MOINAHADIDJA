@@ -1,0 +1,141 @@
+
+.header{
+  background-color: #558ED5;
+  height: 50px;
+  border: 2px solid #375C89;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zero_section{
+  height: 35px;
+  background-color: #C4BD97;
+  border: 2px solid #375C89;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four{
+height: 100px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 20px;
+margin-top: 10px;
+}
+.first_section{
+
+  background-color: #C6D9F1;
+  border: 2px solid #375C89;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second_section{
+
+  background-color: #E5B8B7;
+  border: 2px solid #375C89;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third_section{
+
+  background-color: #C2D59A;
+  border: 2px solid #375C89;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourth_section{
+
+  background-color: #FACAA1;
+  border: 2px solid #375C89;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two{
+height: 80px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+  margin-top: 10px;
+}
+.fifth_section{
+
+  background-color: #00AFEF;
+  border: 2px solid #375C89;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sixth_section{
+
+  background-color: #00AFEF;
+  border: 2px solid #375C89;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  height: 50px;
+  background-color: #B1A0C5;
+  border: 2px solid #375C89;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media  (min-width:768px) and (max-width:1024px)  {
+  .zero_section{
+    height: 50px;
+  }
+.four{
+  height: 140px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+}
+.two{
+  height: 130px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+}
+}
+
+@media (max-width:767px) {
+  .header{
+    height: 45px;
+  }
+  .zero_section{
+    height: 45px;
+  }
+  .four{
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+      grid-gap: 10px;
+  }
+  .two{
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+  }
+  .footer{
+    height: 45px;
+  }
+}
