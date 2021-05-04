@@ -1,7 +1,37 @@
-body{
-  height: 100vh;
-  width: 100%;
-}
+
 .container{
   height: 100vh;
+}
+.sect{
+  height: 55px;
+}
+#entete_de_page{
+  background-color: #558ED5;
+}
+#section0{
+  background-color: #C4BD97;
+}
+.section{
+height: 100px;
+
+}
+#section1{
+  background-color: #C6D9F1;
+
+}
+#section2{
+  background-color: #E5B8B7;
+}
+#section3{
+  background-color:  #C2D59A;
+}
+#section4{
+  background-color: #FACAA1;
+}
+.section5{
+  height: 100px;
+  background-color: #00AFEF;
+}
+#pied_de_page{
+  background-color: #B1A0C5;
 }
