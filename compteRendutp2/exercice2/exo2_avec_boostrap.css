@@ -3,7 +3,7 @@
   height: 100vh;
 }
 .sect{
-  height: 55px;
+  height: 70px;
 }
 #entete_de_page{
   background-color: #558ED5;
@@ -12,7 +12,7 @@
   background-color: #C4BD97;
 }
 .section{
-height: 100px;
+height: 140px;
 
 }
 #section1{
@@ -34,4 +34,26 @@ height: 100px;
 }
 #pied_de_page{
   background-color: #B1A0C5;
+}
+@media (min-width:768px) and (max-width:992px ){
+  #section1,#section2,#section3,#section4{
+      height: 88px;
+  }
+  .section5{
+    height: 75px;
+  }
+  .sect{
+    height: 70px;
+  }
+}
+@media (max-width:767px){
+  #section1,#section2,#section3,#section4{
+      height: 55px;
+  }
+  .section5{
+    height: 55px;
+  }
+  .sect{
+    height: 55px;
+  }
 }
