@@ -1,0 +1,22 @@
+.fig2,.fig3,.fig4{
+  height: 50vh;
+}
+#fig2_center{
+  top:30%;
+  left:8.5%;
+}
+#fig2_bottom{
+  top:60%;
+  left:15.8%;
+}
+#fig3_top{
+width: 214px;
+}
+#fig3_bottom{
+  top:31.9%;
+  left:8.5%;
+}
+#fig4_bottom{
+  top:0;
+  left:7.9%;
+}
